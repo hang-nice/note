@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        height: 100px;
+    }
+
+    /* 浮动实现 */
+    /* 定位实现 和浮动一样脱离文档流 最后一个是居中元素 */
+
+    /*.left {
+        width: 100px;
+        background-color: aqua;
+        float: left;
+    }
+
+    .right {
+        width: 100px;
+        background-color: aqua;
+        float: right;
+    }
+
+    .center {
+        background-color: blueviolet;
+    } */
+    /* flex实现三栏布局 */
+    /* body {
+        display: flex;
+    }
+
+    .left {
+        width: 100px;
+        background-color: aqua;
+    }
+
+    .center {
+        width: 100%;
+        background-color: red;
+    }
+
+    .right {
+        width: 100px;
+        background-color: aqua;
+    } */
+    .left {
+        width: 100px;
+        background-color: red;
+        float: left;
+    }
+
+    .right {
+        width: 100px;
+        background-color: red;
+        float: right;
+    }
+
+    .center {
+        background-color: seagreen;
+        margin: 0 100px;
+    }
+</style>
+
+<body>
+    <!-- 浮动实现 中间自适应部位放在最后 否则有浮动元素会掉下去-->
+    <!-- <div class="left"></div>
+    <div class="right"></div>
+    <div class="center"></div> -->
+    <!--flex实现  -->
+    <!-- <div class="left"></div>
+    <div class="center"></div>
+    <div class="right"></div> -->
+    <!-- 定位实现三栏布局 -->
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="center"></div>
+</body>
+
+</html>
